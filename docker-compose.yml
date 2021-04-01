@@ -1,7 +1,7 @@
 services:
-  php:
-    build: .
-    ports:
-      - 80:80
-    volumes:
-      - .:/var/www/html
+    php:
+        build: .
+        ports:
+            - 3000:80
+        volumes:
+            - .:/var/www/html
