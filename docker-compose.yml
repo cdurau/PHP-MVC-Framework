@@ -2,10 +2,6 @@ services:
     php:
         build: .
         ports:
-<<<<<<< HEAD
             - 3000:80
-=======
-            - 80:80
->>>>>>> fe853f49ac42508ff9809867f77a68c3b9251430
         volumes:
             - .:/var/www/html
